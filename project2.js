@@ -1,7 +1,11 @@
 let myColor;
 
-function setup() {
-  createCanvas(400, 400);
+
+  function setup() {
+  // create the canvas
+  canvas = createCanvas(400, 400);
+  // attach the canvas to the div in your HTML
+  canvas.parent("sketch-container");
   myColor = color(0, 255, 0);
   noLoop(); // stop automatic looping
 }
