@@ -6,7 +6,7 @@ let ox = 0, oy = 0;          //offset cursor
 
 function setup() {
   // create the canvas
-  canvas = createCanvas(400, 400);
+  canvas = createCanvas(1000, 520);
   // attach the canvas to the div in your HTML
   canvas.parent("sketch-container");
 
