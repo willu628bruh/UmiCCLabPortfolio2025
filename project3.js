@@ -1,7 +1,10 @@
 let lap = 20000; 
 
-function setup(){
-  createCanvas(600,300);
+function setup() {
+  // create the canvas
+  canvas = createCanvas(400, 400);
+  // attach the canvas to the div in your HTML
+  canvas.parent("sketch-container");
 }
 
 function draw(){
