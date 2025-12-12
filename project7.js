@@ -49,7 +49,7 @@ function preload() {
 
 function setup() {
   // create the canvas
-  canvas = createCanvas(400, 400);
+  canvas = createCanvas(800, 450);
   // attach the canvas to the div in your HTML
   canvas.parent("sketch-container");
 
