@@ -5,7 +5,7 @@ let eyeSize = 18;
 
 function setup() {
   // create the canvas
-  canvas = createCanvas(400, 400);
+  canvas = createCanvas(300, 300);
   // attach the canvas to the div in your HTML
   canvas.parent("sketch-container");
 }
